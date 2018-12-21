@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/artFTitleLay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:id="@+id/firstTitleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/artFTitleInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+<android.support.v7.widget.LinearLayoutCompat
+    android:id="@+id/firstMusical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/nameV"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aNameInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aFollower"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/afollower"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aFollowerInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aPopular"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/aPopul"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aPopularInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aCheckAt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/aCheckAt"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aCheckAtInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ListView
+            android:id="@+id/firstImgListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        </ListView>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/secondeTitleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/artSecondTitleInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+<android.support.v7.widget.LinearLayoutCompat
+    android:id="@+id/secondMusical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aSecondName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/nameV"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aSecondNameInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aSecondFollower"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/afollower"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aSecondFollowerInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aSecondPopular"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/aPopul"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aSecondPopularInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/aSecondCheckAt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/aCheckAt"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/aSecondCheckAtInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ListView
+                android:id="@+id/secondImgListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

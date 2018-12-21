@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/upcoming_item_bcg"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/ucName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/ucPerform"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:id="@+id/ucDate"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textColor="@android:color/darker_gray" />
+    <TextView
+        android:id="@+id/ucType"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+</android.support.v7.widget.LinearLayoutCompat>

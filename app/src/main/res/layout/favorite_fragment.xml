@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="55dp">
+<TextView
+    android:id="@+id/nodataMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="No Favorites"
+    android:visibility="gone"
+    android:textSize="18dp"
+    android:gravity="center"
+    android:layout_marginTop="150dp"
+    />
+
+    <ListView
+        android:id="@+id/fvrtListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.support.v7.widget.LinearLayoutCompat>

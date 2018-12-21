@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Event Search</string>
+    <string name="search_tab">SEARCH</string>
+    <string name="favorite_tab">Favorite</string>
+    <string name="action_settings">Settings</string>
+    <string name="keyword">Keyword</string>
+    <string name="enterkeyword">Enter Keyword</string>
+    <string name="keyInvalidation">Please enter mandatory field</string>
+
+
+    <string name="category">Category</string>
+    <string-array name="category_arrays">
+        <item value="">All</item>
+        <item value="KZFzniwnSyZfZ7v7nJ">Music</item>
+        <item value="KZFzniwnSyZfZ7v7nE">Sports</item>
+        <item value="KZFzniwnSyZfZ7v7na">Arts&amp;Theatre</item>
+        <item value="KZFzniwnSyZfZ7v7nn">Film</item>
+        <item value="KZFzniwnSyZfZ7v7n1">Miscellaneous</item>
+    </string-array>
+    <string name="distance">Distance</string>
+    <string name="dis10">10</string>
+    <string-array name="unit_arrays">
+        <item value="miles">Miles</item>
+        <item value="km">Kilometers</item>
+    </string-array>
+    <string name="from">From</string>
+    <string name="currentlct">Current location</string>
+    <string name="otherlct">Other. Specify Location</string>
+    <string name="locationIn">Type in the Location</string>
+    <string name="searchbt">SEARCH</string>
+    <string name="claerbt">CLEAR</string>
+    <string name="title_activity_detail_main">DetailMainActivity</string>
+    <string name="upcoming_tab">UPCOMING</string>
+
+    <string name="event_tab">EVENT</string>
+    <string name="artists_tab">ARTIST(S)</string>
+    <string name="venue_tab">VENUE</string>
+    <string name="search_results">SEARCH RESULTS</string>
+
+
+    <string name="atD">Artist/Team(s)</string>
+    <string name="venueD">Venue</string>
+    <string name="timeD">Time</string>
+    <string name="cateD">Category</string>
+
+    <string name="prD">Price Range</string>
+    <string name="tsD">Ticket Status</string>
+    <string name="btaD">Buy Ticket At</string>
+    <string name="smD">Seat Map</string>
+
+
+    <string name="nameV">Name</string>
+    <string name="addressV">Address</string>
+    <string name="cityV">City</string>
+    <string name="phoneV">Phone Number</string>
+
+    <string name="openV">Open Hours</string>
+    <string name="grV">General Rule</string>
+    <string name="crV">Child Rule</string>
+
+    <string-array name="ucType_arrays">
+        <item>Default</item>
+        <item>Event Name</item>
+        <item>Time</item>
+        <item>Artist</item>
+        <item>Type</item>
+    </string-array>
+    <string-array name="ucOrder_arrays">
+        <item>Ascending</item>
+        <item value="des">Descending</item>
+
+    </string-array>
+
+    <string name="google_maps_key">AIzaSyAFz9LWgTLrXbRa-ViUdQ-3SzPYF-_CGyo</string>
+    <string name="searchingEBar">Searching Events</string>
+    <string name="loadingBar">Loading...</string>
+    <string name="naHint">N/A</string>
+    <string name="afollower">Follower</string>
+    <string name="aPopul">Popularity</string>
+    <string name="aCheckAt">Check At</string>
+    <string name="norecords">No Records</string>
+    <string name="noResults">No Results</string>
+</resources>

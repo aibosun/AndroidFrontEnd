@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/veName"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:text="@string/nameV"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/nameVenue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:text="@string/naHint" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/veAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:text="@string/addressV"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/addressVenue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:text="@string/naHint" />
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/veCity"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/cityV"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/cityVenue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/vePhone"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/phoneV"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/phoneVenue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/veOpen"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/openV"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/openVenue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/veGeneral"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/grV"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/grVenue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/veChild"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_weight="0.7"
+                android:gravity="left"
+                android:text="@string/crV"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/crVenue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:text="@string/naHint" />
+        </LinearLayout>
+        <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/map"
+            android:layout_marginBottom="30dp"
+        />
+
+    </LinearLayout>
+</ScrollView>
